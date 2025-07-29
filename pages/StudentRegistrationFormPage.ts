@@ -25,7 +25,6 @@ class StudentRegistrationFormPage {
         this.firstNameInput = page.getByRole('textbox', { name: 'First Name' });
         this.lastNameInput = page.getByRole('textbox', { name: 'Last Name' });
         this.emailInput = page.getByRole('textbox', { name: 'name@example.com' });
-        //  this.genderLabel = page.getByText('Gender');
         this.phoneNumberInput = page.getByRole('textbox', { name: 'Mobile Number' });
         this.dateOfBirthInput = page.locator('#dateOfBirthInput');
         this.subjectsInput = page.locator('#subjectsInput');
@@ -121,8 +120,6 @@ class StudentRegistrationFormPage {
     async takescreenshot(page: Page, p0: string) {
         await page.screenshot({ path: p0 });
     }
-
 }
-
 
 export default StudentRegistrationFormPage;
