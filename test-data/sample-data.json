@@ -1,0 +1,13 @@
+{
+    "Gender": "Female",
+    "PhoneNumber": "9886777777",
+    "Subjects" : "Maths",
+    "Hobbies": ["Sports", "Reading", "Music"],  
+    "CurrentAddress": "Rajaji Nagar, Bangalore",
+    "State": "NCR",
+    "City": "Delhi",
+    "FilePath": "C:\\Temp\\TestImages\\Sample.png",
+    "DOB_Day": "20",
+    "DOB_Month": "April",   
+    "DOB_Year": "2020"
+}
